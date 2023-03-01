@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(136, 136, 136);
+    font-family: 'Roboto', sans-serif;
+    color:rgb(40, 40, 40) 
+}
+h1{
+    text-align: center;
+}
+#pagina {
+    width: 800px;
+    margin:auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+}
+#h2Nombre{
+    text-align: center;
+}
+#barraNavegacion li {
+    display: inline;
+    margin-right: 30px;
+    font-size: 20px;
+}
+#foto {
+    width: 200px;
+    height: 200px;
+    margin-left: 300px;
+}
+#habilidadesDiv, #experienciaDiv {
+    display: none;
+}
+.icono {
+    width: 25px;
+    vertical-align:middle;
+    margin-right: 10px;
+}
+p, li {
+    color: rgb(60, 60, 60);
+    font-size: 16px;
+}
+.tipoEmpleo {
+    font-weight: bold;
+}
+.bloqueTrabajo {
+    padding: 10px;
+    margin-bottom:20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+}
+#habilidadesDiv li {
+    background-color: rgb(245, 245, 245);
+    display:block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.DuracionyUbicacion {
+    display:none;
+}
