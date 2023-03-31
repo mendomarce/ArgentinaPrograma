@@ -1,81 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
-      <link rel="stylesheet" type="text/css" href="css/estilo.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-   </head>
-   <body>
-      <div id="pagina">
-         <div id="darkMode"><img src="imagenes/luna.png"  /></div>
-         <h1>Curriculum vitae</h1>
-         <img id="foto" alt="foto" src="imagenes/32.jpg" />
-         <h2 id="h2Nombre">Brennan Alvarez</h2>
-         <p id="demo"></p>
-         <!--barra de navegacion, se utiliza la etiqueta <a> como boton para el comportamiento agregado, <a> permite al usuario ver con mayor claridad que al clickear sucede algo-->
-         <ul id="barraNavegacion">
-            <li>
-               <a id="informacionLink" href="javascript:;">Información personal</a>
-            </li>
-            <li>
-               <a id="experienciaLink" href="javascript:;">Experiencia</a>
-            </li>
-            <li>
-               <a id="habilidadesLink" href="javascript:;">Habilidades</a>
-            </li>
-         </ul>
-         <div class="secciones">
-            <div id="informacionDiv">
-               <h2>información personal</h2>
-               <p>
-                  <img class="icono" alt="Ubicacíon" src="imagenes/map.png">Billings, Michigan, United States <br />
-                  <br />
-                  <img class="icono" alt="email" src="imagenes/email.png">jennie.nichols@example.com <br />
-                  <br />
-                  <img class="icono" alt="teléfono" src="imagenes/smart.png">(489) 330-2385 <br />
-               </p>
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" type="text/css" href="css/estilo.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <div id="pagina">
+      <div id="darkMode"><img src="imagenes/luna.png" /></div>
+      <h1>Curriculum vitae</h1>
+      <img id="foto" alt="foto" src="imagenes/32.jpg" />
+      <h2 id="h2Nombre">Brennan Alvarez</h2>
+      <p id="demo"></p>
+      <!--barra de navegacion, se utiliza la etiqueta <a> como boton para el comportamiento agregado, <a> permite al usuario ver con mayor claridad que al clickear sucede algo-->
+      <ul id="barraNavegacion">
+         <li>
+            <a id="informacionLink" href="javascript:;">Información personal</a>
+         </li>
+         <li>
+            <a id="experienciaLink" href="javascript:;">Experiencia</a>
+         </li>
+         <li>
+            <a id="habilidadesLink" href="javascript:;">Habilidades</a>
+         </li>
+      </ul>
+      <div class="secciones">
+         <div id="informacionDiv">
+            <h2>información personal</h2>
+            <p>
+               <img class="icono" alt="Ubicacíon" src="imagenes/map.png">Billings, Michigan, United States <br />
+               <br />
+               <img class="icono" alt="email" src="imagenes/email.png">jennie.nichols@example.com <br />
+               <br />
+               <img class="icono" alt="teléfono" src="imagenes/smart.png">(489) 330-2385 <br />
+            </p>
+         </div>
+         <div id="experienciaDiv">
+            <h2>Experiencia</h2>
+            <div class="bloqueTrabajo" id="bloqueTrabajo1">
+               <h3>Diseñador y Programador Web</h3>
+               <p class="tipoEmpleo">Profesional independiente</p>
+               <p class="DuracionyUbicacion">2021 - actualidad · 2 años 2 meses Buenos Aires, Provincia de Buenos Aires,
+                  Argentina</p>
+               <a href="javascript:;" class="masInformacion">+ Información</a>
             </div>
-            <div id="experienciaDiv">
-               <h2>Experiencia</h2>
-               <div class="bloqueTrabajo" id="bloqueTrabajo1">
-                  <h3>Diseñador y Programador Web</h3>
-                  <p class="tipoEmpleo">Profesional independiente</p>
-                  <p class="DuracionyUbicacion">2021 - actualidad · 2 años 2 meses Buenos Aires, Provincia de Buenos Aires, Argentina</p>
-                  <a href="javascript:;" class="masInformacion">+ Información</a>
-               </div>
-               <div class="bloqueTrabajo" id="bloqueTrabajo2">
-                  <h3>Delineante de AutoCAD</h3>
-                  <p class="tipoEmpleo">Consultora Auding · Profesional independiente</p>
-                  <p class="DuracionyUbicacion">ene. 2008 - actualidad · 15 años 2 meses Ciudad de Buenos Aires, Provincia de Buenos Aires, Argentina</p>
-                  <a href="javascript:;" class="masInformacion">+ Información</a>
-               </div>
-               <div class="bloqueTrabajo" id="bloqueTrabajo3">
-                  <h3>Diseñador gráfico</h3>
-                  <p class="tipoEmpleo">Polka · Contrato temporal</p>
-                  <p class="DuracionyUbicacion">2010 - 2012 · 2 años Ciudad de Buenos Aires, Provincia de Buenos Aires, Argentina</p>
-                  <a href="javascript:;" class="masInformacion">+ Información</a>
-               </div>
+            <div class="bloqueTrabajo" id="bloqueTrabajo2">
+               <h3>Delineante de AutoCAD</h3>
+               <p class="tipoEmpleo">Consultora Auding · Profesional independiente</p>
+               <p class="DuracionyUbicacion">ene. 2008 - actualidad · 15 años 2 meses Ciudad de Buenos Aires, Provincia
+                  de Buenos Aires, Argentina</p>
+               <a href="javascript:;" class="masInformacion">+ Información</a>
             </div>
-            <div id="habilidadesDiv">
-               <h2>Habilidades</h2>
-               <div>
-                  <div class="cajasHabilidades"><span>Adobe Ilustrator</span><img alt="logo" src="imagenes/OIP.jpeg"/></div>
-                  <div class="cajasHabilidades"><span>Adobe Photoshop</span><img alt="logo" src="imagenes/Photoshop.png"/></div>
-                  <div class="cajasHabilidades"><span>HTML 5</span><img alt="logo" src="imagenes/HTML5_logo.png"/></div>
-                  <div class="cajasHabilidades"><span>CSS 3</span><img alt="logo" src="imagenes/html5-logo.png"/></div>
-                  <div class="cajasHabilidades"><span>JavaScript</span><img alt="logo" src="imagenes/JavaScript-logo.png"/></div>
-                  <div class="cajasHabilidades"><span>PHP</span><img alt="logo" src="imagenes/php.png"/></div>
-                  <div class="cajasHabilidades"><span>Diseño de página</span><img alt="logo" src="imagenes/pagina.png"/></div>
-                  <div class="cajasHabilidades"><span>Diseño gráfico</span><img alt="logo" src="imagenes/diseno.png"/></div>
+            <div class="bloqueTrabajo" id="bloqueTrabajo3">
+               <h3>Diseñador gráfico</h3>
+               <p class="tipoEmpleo">Polka · Contrato temporal</p>
+               <p class="DuracionyUbicacion">2010 - 2012 · 2 años Ciudad de Buenos Aires, Provincia de Buenos Aires,
+                  Argentina</p>
+               <a href="javascript:;" class="masInformacion">+ Información</a>
+            </div>
+         </div>
+         <div id="habilidadesDiv">
+            <h2>Habilidades</h2>
+            <div>
+               <div class="cajasHabilidades"><span>Adobe Ilustrator</span><img alt="logo" src="imagenes/OIP.jpeg" />
+               </div>
+               <div class="cajasHabilidades"><span>Adobe Photoshop</span><img alt="logo" src="imagenes/Photoshop.png" />
+               </div>
+               <div class="cajasHabilidades"><span>HTML 5</span><img alt="logo" src="imagenes/HTML5_logo.png" /></div>
+               <div class="cajasHabilidades"><span>CSS 3</span><img alt="logo" src="imagenes/html5-logo.png" /></div>
+               <div class="cajasHabilidades"><span>JavaScript</span><img alt="logo"
+                     src="imagenes/JavaScript-logo.png" /></div>
+               <div class="cajasHabilidades"><span>PHP</span><img alt="logo" src="imagenes/php.png" /></div>
+               <div class="cajasHabilidades"><span>Diseño de página</span><img alt="logo" src="imagenes/pagina.png" />
+               </div>
+               <div class="cajasHabilidades"><span>Diseño gráfico</span><img alt="logo" src="imagenes/diseno.png" />
                </div>
             </div>
          </div>
       </div>
-   </body>
-   <script src="js/javascript.js"></script>
+   </div>
+</body>
+<script src="js/javascript.js"></script>
 </html>

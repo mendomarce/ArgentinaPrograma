@@ -1,108 +1,145 @@
 body {
-    background-color:#3498DB;
+    background-color: #3498DB;
     font-family: 'Roboto', sans-serif;
-    color:rgb(50, 50, 50);
+    color: rgb(50, 50, 50);
     padding-top: 10px;
 }
-h1{
+
+h1 {
     text-align: center;
-    margin-block-start:0;
+    margin-block-start: 0;
 }
+
 #pagina {
     width: 800px;
-    margin:auto;
+    margin: auto;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 20px;
     box-shadow: 5px 5px 20px #000000;
-
 }
-#h2Nombre{
+
+#h2Nombre {
     text-align: center;
     font-size: 30px;
 }
-#barraNavegacion{
+
+#barraNavegacion {
     background-color: #1F618D;
     padding: 10px 0;
     text-align: center;
     border-radius: 10px;
 }
+
 #barraNavegacion li {
     display: inline;
     margin-right: 40px;
     font-size: 20px;
 }
-#barraNavegacion a{
+
+#barraNavegacion a {
     color: white;
-    text-decoration:none;
+    text-decoration: none;
 
 }
+
 #foto {
     width: 200px;
     height: 200px;
     margin-left: 300px;
     box-shadow: 3px 3px 20px #000000;
 }
-#informacionDiv  p{
+
+#informacionDiv p {
     font-weight: bold;
 }
 
-#habilidadesDiv, #experienciaDiv {
+#habilidadesDiv,
+#experienciaDiv {
     display: none;
 }
+
 .icono {
     width: 30px;
-    vertical-align:middle;
+    vertical-align: middle;
     margin-right: 10px;
 }
-p, li {
+
+p,
+li {
     font-size: 16px;
 }
+
 .tipoEmpleo {
     font-weight: bold;
 }
+
 .bloqueTrabajo {
     padding: 10px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
     background-color: rgb(245, 245, 245);
     border-radius: 10px;
     box-shadow: 2px 2px 5px #777777;
-
 }
+
 .DuracionyUbicacion {
-    display:none;
+    display: none;
 }
-.secciones h2 {
-    border-bottom:1px solid;
-    border-bottom-color: #404040;}
 
-#habilidadesDiv, #experienciaDiv,#informacionDiv  {
+.secciones h2 {
+    border-bottom: 1px solid;
+    border-bottom-color: #404040;
+}
+
+#habilidadesDiv,
+#experienciaDiv,
+#informacionDiv {
     opacity: 1;
     animation: fade 0.5s linear;
 }
+
 @keyframes fade {
-  0% { opacity: 0 }
-  100% { opacity: 1 }
-}
-
-.cajasHabilidades {height: 150px; background-color: #ECF0F1; 
-    margin: 1% 1%;border-radius: 10px;
-    width: 22.6%;
-    display: inline-block;text-align: center;
-    padding-top: 15px;
-    box-shadow: 2px 2px 5px #777777;
-
-    
-}
-.cajasHabilidades span{font-weight: bold; text-align: center;    display: inline-block;
+    0% {
+        opacity: 0
     }
 
-.cajasHabilidades img{  display: block;
+    100% {
+        opacity: 1
+    }
+}
+
+.cajasHabilidades {
+    height: 150px;
+    background-color: #ECF0F1;
+    margin: 1% 1%;
+    border-radius: 10px;
+    width: 22.6%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 2px 2px 5px #777777;
+}
+
+.cajasHabilidades span {
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+.cajasHabilidades img {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     height: 100px;
     max-width: 80%;
-    padding-top: 15px;}
+    padding-top: 15px;
+}
 
-#darkMode img {height: 40px; float: right;}
-#darkMode{height: 40px;}
+#darkMode img {
+    height: 40px;
+    float: right;
+}
+
+#darkMode {
+    height: 40px;
+}
