@@ -1,7 +1,8 @@
 body {
     background-color:#3498DB;
     font-family: 'Roboto', sans-serif;
-    color:rgb(50, 50, 50) 
+    color:rgb(50, 50, 50);
+    padding-top: 10px;
 }
 h1{
     text-align: center;
@@ -79,14 +80,11 @@ p, li {
     opacity: 1;
     animation: fade 0.5s linear;
 }
-
-
 @keyframes fade {
   0% { opacity: 0 }
   100% { opacity: 1 }
 }
-#izquierdo{ float:left; width: 50%;}
-#derecho{ float: right; width: 50%}
+
 .cajasHabilidades {height: 150px; background-color: #ECF0F1; 
     margin: 1% 1%;border-radius: 10px;
     width: 22.6%;
