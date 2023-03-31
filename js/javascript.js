@@ -1,6 +1,6 @@
 
 // muestra la seccion correspondiente al link clikeado y oculta las demas
-console.log("ja");
+console.log(".");
 document.getElementById("informacionLink").addEventListener("click", function() {
     document.getElementById("informacionDiv").style.display = "block";
     document.getElementById("habilidadesDiv").style.display = "none";
@@ -14,6 +14,11 @@ document.getElementById("experienciaLink").addEventListener("click", function() 
 });
 
 document.getElementById("habilidadesLink").addEventListener("click", function() {
+    document.getElementById("habilidadesDiv").style.display = "block";
+    document.getElementById("experienciaDiv").style.display = "none";
+    document.getElementById("informacionDiv").style.display = "none";
+});
+document.getElementById("darkMode").addEventListener("click", function() {
     document.getElementById("habilidadesDiv").style.display = "block";
     document.getElementById("experienciaDiv").style.display = "none";
     document.getElementById("informacionDiv").style.display = "none";
