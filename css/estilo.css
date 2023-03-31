@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(136, 136, 136);
+    background-color:#3498DB;
     font-family: 'Roboto', sans-serif;
     color:rgb(40, 40, 40) 
 }
@@ -12,25 +12,43 @@ h1{
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 20px;
+    box-shadow: 5px 5px 20px #000000;
 }
 #h2Nombre{
     text-align: center;
+    font-size: 30px;
+}
+#barraNavegacion{
+    background-color: #1F618D;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
 }
 #barraNavegacion li {
     display: inline;
-    margin-right: 30px;
+    margin-right: 40px;
     font-size: 20px;
+}
+#barraNavegacion a{
+    color: white;
+    text-decoration:none;
+
 }
 #foto {
     width: 200px;
     height: 200px;
     margin-left: 300px;
+    box-shadow: 3px 3px 20px #000000;
 }
+#informacionDiv  p{
+    font-weight: bold;
+}
+
 #habilidadesDiv, #experienciaDiv {
     display: none;
 }
 .icono {
-    width: 25px;
+    width: 30px;
     vertical-align:middle;
     margin-right: 10px;
 }
@@ -46,13 +64,43 @@ p, li {
     margin-bottom:20px;
     background-color: rgb(245, 245, 245);
     border-radius: 10px;
-}
-#habilidadesDiv li {
-    background-color: rgb(245, 245, 245);
-    display:block;
-    font-weight: bold;
-    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px #777777;
+
 }
 .DuracionyUbicacion {
     display:none;
 }
+.secciones h2 {
+    border-bottom:1px solid;
+    border-bottom-color: #404040;}
+
+#habilidadesDiv, #experienciaDiv,#informacionDiv  {
+    opacity: 1;
+    animation: fade 0.5s linear;
+}
+
+
+@keyframes fade {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
+#izquierdo{ float:left; width: 50%;}
+#derecho{ float: right; width: 50%}
+.cajasHabilidades {height: 150px; background-color: #ECF0F1; 
+    margin: 1% 1%;border-radius: 10px;
+    width: 22.6%;
+    display: inline-block;text-align: center;
+    padding-top: 15px;
+    box-shadow: 2px 2px 5px #777777;
+
+    
+}
+.cajasHabilidades span{font-weight: bold; text-align: center;    display: inline-block;
+    }
+
+.cajasHabilidades img{  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    max-width: 80%;
+    padding-top: 15px;}
